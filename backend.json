@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "Hwl6JEF3o1NZFZdsrazutxcgFUl2": {
+      "type": "object",
+      "properties": {
+        "image": {
+          "type": "string",
+          "format": "uri"
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": ["image", "name"]
+    },
+    "dateOfBirth": {
+      "type": "string"
+    },
+    "favoriteColor": {
+      "type": "string"
+    },
+    "favoriteFood": {
+      "type": "string"
+    },
+    "highScore": {
+      "type": "integer"
+    },
+    "image": {
+      "type": "string",
+      "format": "uri"
+    },
+    "iuOL9tCtIjfo97DGvmQHkqrLyHI2": {
+      "type": "object",
+      "properties": {
+        "image": {
+          "type": "string",
+          "format": "uri"
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": ["image", "name"]
+    },
+    "name": {
+      "type": "string"
+    }
+  },
+  "required": ["Hwl6JEF3o1NZFZdsrazutxcgFUl2", "dateOfBirth", "favoriteColor", "favoriteFood", "highScore", "image", "iuOL9tCtIjfo97DGvmQHkqrLyHI2", "name"]
+}
