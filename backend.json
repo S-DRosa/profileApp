@@ -5,47 +5,79 @@
     "Hwl6JEF3o1NZFZdsrazutxcgFUl2": {
       "type": "object",
       "properties": {
+        "dateOfBirth": {
+          "type": "string",
+          "format": "date"
+        },
+        "favoriteColor": {
+          "type": "string",
+          "enum": ["purples"]
+        },
+        "favoriteFood": {
+          "type": "string",
+          "enum": ["pizzas"]
+        },
         "image": {
           "type": "string",
           "format": "uri"
         },
         "name": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         }
       },
-      "required": ["image", "name"]
+      "required": ["dateOfBirth", "favoriteColor", "favoriteFood", "image", "name"]
     },
     "dateOfBirth": {
-      "type": "string"
+      "type": "string",
+      "format": "date"
     },
     "favoriteColor": {
-      "type": "string"
+      "type": "string",
+      "minLength": 1
     },
     "favoriteFood": {
-      "type": "string"
+      "type": "string",
+      "minLength": 1
     },
     "highScore": {
-      "type": "integer"
+      "type": "integer",
+      "minimum": 0
     },
     "image": {
       "type": "string",
-      "format": "uri"
+      "format": "uri",
+      "minLength": 1
     },
     "iuOL9tCtIjfo97DGvmQHkqrLyHI2": {
       "type": "object",
       "properties": {
+        "dateOfBirth": {
+          "type": "string",
+          "format": "date"
+        },
+        "favoriteColor": {
+          "type": "string",
+          "enum": ["black"]
+        },
+        "favoriteFood": {
+          "type": "string",
+          "enum": ["pasta"]
+        },
         "image": {
           "type": "string",
           "format": "uri"
         },
         "name": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         }
       },
-      "required": ["image", "name"]
+      "required": ["dateOfBirth", "favoriteColor", "favoriteFood", "image", "name"]
     },
     "name": {
-      "type": "string"
+      "type": "string",
+      "minLength": 1
     }
   },
   "required": ["Hwl6JEF3o1NZFZdsrazutxcgFUl2", "dateOfBirth", "favoriteColor", "favoriteFood", "highScore", "image", "iuOL9tCtIjfo97DGvmQHkqrLyHI2", "name"]
