@@ -21,8 +21,8 @@
                     "createdAt": "2023-09-19T14:18:12.070Z",
                     "updatedAt": "2023-09-19T14:18:12.070Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f76549f6a6e642ece29eeb/projects/6505afb75205bf4fe33fe2f7/assets/6509ada3c1b64a290cd3ecb4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20230920%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230920T170542Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=a50b497e1043bdfbeb64e1bdb09af0235ac8606cddaf656869b2c9b106f38c23a8134504e02a225bdfc0d2d26c22a5bd51368a85156a3b8532bf8d353d66eac9d79468cae49dff556734724f2f3974dcea9e9038ae728bda83ad4f4c68f1dd353635dd22632857b6152101a12f18b6e3d8433d5714dd6cafcdb69f8764f11511c567de9621d41bdbd3194135a25d4814c028d31bfea634f66f77873332b4f401b5905564723fae9088fefb660d41e536545c47ec75e96d315c11cb03713132719982800f5707ce3ccc1b47d7363787cf3b695aee7f61e4b4123b43acfa5c3c6f7b5c37bb1ce90ce093a2bf4c4d325f67b9c4cb7b6d1b9970cb702760c09f717c",
-                    "signedUrlExpirationTime": 1695402342576
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f76549f6a6e642ece29eeb/projects/6505afb75205bf4fe33fe2f7/assets/6509ada3c1b64a290cd3ecb4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20230925%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230925T121015Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=8d25267d3cf8295b997be72d910648c40c71b67963144e9a21ed59fd382ede1fa9b1369974e9a0e2e686e6a2156f1adf25a156d9ddcd75d1bf24a7afce92a0ea00b7c1449ed49ce03c0d4296611aa345f88a70f162f25a943499a1fe9afa47df92693183cbdf1a270daf9d347d06a3cf72a6b73a82a7d4e828b046abbb492ffb0be8504f2f7d31980ed997b6f93b175d92adcf9a29e5b2adb901d4b33ad909a1478fa87cd07e12e3bdeb22e12f0d2d0e01735a497648faed231f7b6a58da692d71ebb203fa83f5a778fb4ca41071983a228ce0b2f94bda330d6bfaa755cf67c2916810378f9c4fcbec55e25fd802ad4485ce5eeaa81716f28d4df812f5cdaf62",
+                    "signedUrlExpirationTime": 1695816615675
                 }
             },
             "backendUpgradeVersion": 21,
@@ -67,9 +67,41 @@
             ],
             "components": {
                 "children": [
-                    "sign-up.47c4e749-9b1b-40c4-8448-691f9e53eb58",
-                    "profile.feebdea0-75ad-49a7-81f1-5c3d578ea850",
-                    "sign-out.89093140-54a8-43fe-a506-19d715ac9a90"
+                    {
+                        "id": "47c4e749-9b1b-40c4-8448-691f9e53eb58"
+                    },
+                    {
+                        "type": "Drawer Navigator",
+                        "translatedName": "Drawer Navigator",
+                        "reactType": "DrawerNavigator",
+                        "properties": {
+                            "DrawerPosition": "left",
+                            "TabNavigationOptions": {
+                                "tabBarVisible": true
+                            },
+                            "TabNavigatorIcon": {},
+                            "config": {
+                                "contentOptions": {
+                                    "drawerPosition": "left"
+                                }
+                            },
+                            "navigationOptions": {
+                                "tabBarVisible": true
+                            },
+                            "tabNavigationOptions": {}
+                        },
+                        "children": [
+                            {
+                                "id": "feebdea0-75ad-49a7-81f1-5c3d578ea850"
+                            },
+                            {
+                                "id": "89093140-54a8-43fe-a506-19d715ac9a90"
+                            }
+                        ],
+                        "id": "059bc917-646e-4c9f-9d95-ac8d197cea57",
+                        "thunkableVersion": 422,
+                        "name": "Drawer_Navigator1"
+                    }
                 ]
             },
             "figmaComponents": {},
