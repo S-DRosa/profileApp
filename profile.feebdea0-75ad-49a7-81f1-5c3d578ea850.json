@@ -57,6 +57,36 @@
     },
     "children": [
         {
+            "type": "AdMobBanner",
+            "label": "AdMob Banner",
+            "translatedName": "AdMob Banner",
+            "properties": {
+                "Visible": true,
+                "AdUnitID": "ca-app-pub-3940256099942544/6300978111",
+                "AdUnitID_iOS": "ca-app-pub-3940256099942544/6300978111",
+                "TestMode": true,
+                "Width": 375,
+                "Height": 32,
+                "X": -2,
+                "ParentId": "feebdea0-75ad-49a7-81f1-5c3d578ea850",
+                "Y": 595.133331298828,
+                "RelativeX": -2,
+                "RelativeY": 595,
+                "position": "absolute",
+                "edgeOffsets": 595.133331298828,
+                "style": {
+                    "position": "absolute",
+                    "left": "22.044437662760416%",
+                    "top": "85.02748595184829%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "75f06670-9544-42fb-aed1-07e16a9d02a5",
+            "thunkableVersion": 422,
+            "name": "AdMob_Banner1"
+        },
+        {
             "type": "Group",
             "label": "Group",
             "translatedName": "Group",
@@ -997,13 +1027,13 @@
                 "CustomFont": "",
                 "LineHeight": 1,
                 "Color": "rgba(0, 0, 0, 1)",
-                "Height": 116,
-                "Width": 375,
+                "Height": 75,
+                "Width": 377,
                 "Visible": true,
-                "X": -2,
-                "Y": 522,
-                "RelativeX": -2,
-                "RelativeY": 522,
+                "X": 0,
+                "Y": 503,
+                "RelativeX": 0,
+                "RelativeY": 503,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -1044,7 +1074,7 @@
                 },
                 "ParentId": "feebdea0-75ad-49a7-81f1-5c3d578ea850",
                 "position": "absolute",
-                "edgeOffsets": 522.9999999999999,
+                "edgeOffsets": 503,
                 "children": ""
             },
             "children": [],
